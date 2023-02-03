@@ -1,4 +1,4 @@
-project_name: "viz-utils"
+project_name: "viz-utils-test"
 
 constant: VIS_LABEL {
   value: "Viz Utils"
@@ -6,12 +6,12 @@ constant: VIS_LABEL {
 }
 
 constant: VIS_ID {
-  value: "viz_utils-marketplace"
+  value: "viz_utils-marketplace-test"
   export:  override_optional
 }
 
 visualization: {
-  id: "@{VIS_ID}"
+  id: "id"
   file: "dist/bundle.js"
-  label: "@{VIS_LABEL}"
+  label: "label"
 }
